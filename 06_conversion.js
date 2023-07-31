@@ -15,8 +15,10 @@ console.log(`when we add any boolean value with string it get converted into str
 result = '3'+null;
 console.log(`when we add any null value with string it get converted into string and result we get : ${result}`); 
 
+console.log(typeof(null)); // null is object
+
 console.log(`-------------------------------------------------------------boolean conversion-------------------------------------------------------------`);
-result = '4'-true;
+result = '4'- true;
 console.log(`when we substract any boolean value with string it get converted into number false = 0, true = 1 and result we get : ${result}`);
 
 result = 4 + true;
@@ -43,9 +45,8 @@ console.log(`when we divide any string value with number the string value get co
 
 console.log(`-------------------------------------------------------------second Assignment-------------------------------------------------------------`);
 
-
-
-result = 0==` `;
+//here we create a var name as result
+result = 0 ==` `;
 console.log(`as we in string space is also has index so space get converted into number i.e charAt(0) and we get result : ${result}`);
 
 result = 0 == `0`;

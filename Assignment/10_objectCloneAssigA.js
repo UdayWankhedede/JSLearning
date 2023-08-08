@@ -21,14 +21,13 @@ for (let value of friendArray) {
   console.log(value);
 }
 
-
-let string = "Codemind Technology"
-let newstring = string.substring(9)
-let newstring1 = string.substring(0,9)// for final string concatination
-let reverseString=""
-for (let index = newstring.length-1; index >= 0 ; index--) {
-    const element = newstring.charAt(index);
-    reverseString =reverseString.concat(element) 
+let string = "Codemind Technology";
+let newstring = string.substring(9);
+let newstring1 = string.substring(0, 9); // for final string concatination
+let reverseString = "";
+for (let index = newstring.length - 1; index >= 0; index--) {
+  const element = newstring.charAt(index);
+  reverseString = reverseString.concat(element);
 }
-let fstring = newstring1.concat(reverseString) 
+let fstring = newstring1.concat(reverseString);
 console.log(fstring);

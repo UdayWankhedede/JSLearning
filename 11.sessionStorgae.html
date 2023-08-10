@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>session Storage</h1>
+    <script>
+        window.sessionStorage.setItem("rollNo","11");
+        window.sessionStorage.setItem("city","Pune");
+        window.sessionStorage.setItem("pin","411057");
+        const key = window.sessionStorage.key(0)
+        console.log(key);
+        let key_var = Object.keys(sessionStorage);
+        let city = window.sessionStorage.getItem("city");
+        console.log(city);
+        console.log(index);
+    </script>
+</body>
+</html>

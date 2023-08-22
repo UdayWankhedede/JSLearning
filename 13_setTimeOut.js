@@ -1,6 +1,7 @@
 console.log(`callback function `);
 
-let notification = function (){
+let notification = function () //function expression
+{
     console.log(`======== inside FE ==========`);
     console.log(`Inside notification`);
 }
@@ -8,7 +9,8 @@ let notification = function (){
 setTimeout(notification, 8000);
 
 
-setTimeout(function(){
+setTimeout(function()
+{
     for (let index = 0; index <=10; index++) {
         if (index%2==0) {
             console.log(index);

@@ -1,3 +1,6 @@
+//JSON JavaScript Object Notation (JSON) 
+//It is commonly used for transmitting data in web applications (e.g., sending some data from the server to the client, so it can be displayed on a web page, or vice versa)
+
 let addressStr = `{
     "flatNo": 307,
     "building": "B",
